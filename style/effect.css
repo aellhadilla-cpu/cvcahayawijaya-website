@@ -1,0 +1,26 @@
+/*home*/
+
+/*primaryHover*/
+.primary-button button:hover {
+        background-color: rgba(0, 0, 0, 0);
+        transition: all 0.5s ease;
+    }
+
+/*secondaryHover*/
+.secondary-button button:hover {
+        background-color: #eeeeee00;
+        transition: all 0.5s ease;
+    }
+
+/*homeResponsive*/
+ /* Tablet */
+    @media (max-width: 1024px) {
+    }
+
+    /*mobile*/
+    @media (max-width: 765px) {
+    }
+
+    /* Small Mobile */
+    @media (max-width: 480px) {
+    }

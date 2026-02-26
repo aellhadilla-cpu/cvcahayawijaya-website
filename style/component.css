@@ -1,0 +1,29 @@
+/*home*/
+
+/*primaryButton*/
+.primary-button button {
+        font-family: var(--font-body);
+        width: 190px;
+        height: 60px;
+        border-radius: 20px;
+        font-family: var(--font-body);
+        font-weight: 520;
+        font-size: 16px;
+        background-color: rgb(0, 0, 0);
+        color: goldenrod;
+        border: 2px solid goldenrod;
+    }
+
+/*secondaryButton*/
+.secondary-button button {
+        font-family: var(--font-body);
+        width: 190px;
+        height: 60px;
+        border-radius: 20px;
+        font-family: var(--font-body);
+        font-weight: 520;
+        font-size: 16px;
+        background-color: goldenrod;
+        color: rgb(0, 0, 0);
+        border: 2px solid black;
+    }
