@@ -3,13 +3,13 @@
 
 /*primaryHover*/
 .primary-button button:hover {
-        background-color: rgba(0, 0, 0, 0);
-        transition: all 0.3s ease-in-out;
+        background: linear-gradient(to bottom right, #ffffff, #68b1ff);
+        transition: all 1.3s ease;
     }
 
 /*secondaryHover*/
 .secondary-button button:hover {
-        background-color: #000000;
+        background: linear-gradient(to bottom right, #ffffff, #68b1ff);
         transition: all 0.5s ease;
     }
 

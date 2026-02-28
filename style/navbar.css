@@ -18,6 +18,7 @@
         padding: 16px 30px;
         backdrop-filter: blur(10px); /* blur konten di belakang navbar */
         -webkit-backdrop-filter: blur(10px);
+        z-index: 999;
     }
 
     .nav-primary:hover {

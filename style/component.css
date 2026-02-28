@@ -9,9 +9,9 @@
         font-family: var(--font-body);
         font-weight: 520;
         font-size: 16px;
-        background-color: rgb(0, 0, 0);
-        color: rgb(255, 235, 80);
-        border: 1px solid rgb(255, 235, 80);
+        background: linear-gradient(to bottom right, #ffffff00, #68b1ff00);
+        color: rgb(101, 165, 225);
+        border: 1px solid rgb(106, 207, 236);
     }
 
 /*secondaryButton*/
@@ -27,3 +27,17 @@
         color: rgb(255, 255, 255);
         border: 1px solid rgb(255, 255, 255);
     }
+
+    .display-content {
+    margin-top: 0px;
+}
+
+.display-button {
+    color: #03070d;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 18px;
+    background: linear-gradient(to bottom right, #ffffff, #68b1ff);
+    padding: 20px 20px 20px 20px;
+    width: 200px;margin: 20px;
+    text-decoration: none;
+}
