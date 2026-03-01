@@ -49,6 +49,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin: 13px;
+    gap: 20px;
 }
 
 .buble {
@@ -58,6 +59,7 @@ h1 {
     -webkit-backdrop-filter: blur(10px);  /* support Safari */
     border-radius: 50px;
     border-radius: 20px;
+    flex: 1 1 250px;
 }
 
 .buble-title {
@@ -65,6 +67,7 @@ h1 {
     gap: 5px;
     font-family: 'Segoe UI', sans-serif;
     margin: 10px;
+    font-size: small;
 }
 
 .buble-paragraph p {
@@ -75,7 +78,6 @@ h1 {
 
 img {
     width: 25px;
-    
 }
 
 /*Display*/

@@ -12,6 +12,7 @@
         background: linear-gradient(to bottom right, #ffffff00, #68b1ff00);
         color: rgb(101, 165, 225);
         border: 1px solid rgb(106, 207, 236);
+        margin-bottom: 10px;
     }
 
 /*secondaryButton*/

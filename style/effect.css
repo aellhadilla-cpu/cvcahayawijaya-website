@@ -32,12 +32,59 @@
         .about-hero {
             height: auto;
         }
+        .about-title-box {
+            border: none;
+        }
     }
 
     /*mobile*/
-    @media (max-width: 765px) {
+    @media (max-width: 1000px) {
+        .about-buble-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .buble-title {
+            background-color: rgba(250, 235, 215, 0);
+        }
+        .about-title-box {
+            width: 70%;
+            border: none;
+        }
     }
 
     /* Small Mobile */
-    @media (max-width: 480px) {
+    @media (max-width: 560px) {
+        .nav-content a {
+            font-size: 11px;
+        }
+        .nav-content {
+            gap: 10px;
+        }
+        .home-content h1 {
+            font-size: 30px;
+        }
+        .home-content p {
+            font-size: 11px;
+        }
+        .about-title-box h1 {
+            font-size: 30px;
+        }
+        .about-tittle {
+            margin-bottom: 0px;
+        }
+        .law-container, .food-container, .social-container {
+            display: flex;
+            flex-direction: column;
+        }
+        .law-tittle, .food-tittle, .social-tittle {
+            width: 100%;
+        }
+        .law-paragraph, .food-paragraph, .social-paragraph {
+            width: 100%;
+        }
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+        }
     }
