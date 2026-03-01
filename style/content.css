@@ -118,3 +118,25 @@ img {
     color: #b5b5b5;
 }
 
+/*Footer*/
+
+.foot-logo {
+    width: 30px;
+    margin: 10px;
+}
+
+.contact-group a {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    color: #b5b5b5;
+}
+
+.disclaimer p {
+    width: 90%;
+    background-color: #9a2a2a00;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 18px;
+    margin: 30px;
+    color: #b5b5b5;
+}

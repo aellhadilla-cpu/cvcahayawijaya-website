@@ -13,9 +13,25 @@
         transition: all 0.5s ease;
     }
 
-/*homeResponsive*/
+/*IndexResponsive*/
  /* Tablet */
-    @media (max-width: 1024px) {
+    @media (max-width: 1424px) {
+        .about-content {
+            display: flex;
+            flex-direction: column;
+        }
+        .about-paragraph-box {
+            width: 100%;
+        }
+        .about-paragraph {
+            margin-bottom: 10px;
+        }
+        .about-content {
+            height: auto;
+        }
+        .about-hero {
+            height: auto;
+        }
     }
 
     /*mobile*/
