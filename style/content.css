@@ -120,28 +120,6 @@ img {
     color: #b5b5b5;
 }
 
-/*Footer*/
-
-.foot-logo {
-    width: 30px;
-    margin: 10px;
-}
-
-.contact-group a {
-    font-family: 'Segoe UI', sans-serif;
-    font-size: 17px;
-    text-align: center;
-    color: #b5b5b5;
-}
-
-.disclaimer p {
-    width: 90%;
-    background-color: #9a2a2a00;
-    font-family: 'Segoe UI', sans-serif;
-    font-size: 18px;
-    margin: 30px;
-    color: #b5b5b5;
-}
 
 /*Social Service*/
 
@@ -216,4 +194,69 @@ img {
 .testi-paragraph {
     font-size: 17px;
     margin: 10px;
+}
+
+/*Paragraph*/
+.social-paragraph-content h1 {
+    font-size: 47px;
+}
+
+.social-paragraph-content p {
+    font-family: 'Segoe UI', sans-serif;
+    padding-left: 30px;
+}
+
+.paragraph-buble-container {
+    display: flex;
+    gap: 5px;
+}
+
+.paragraph-buble-card {
+    width: 15%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.paragraph-buble-card-last {
+    width: 55%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+/*News*/
+.news-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: rgba(255, 255, 0, 0);
+    margin-top: 30px;
+}
+
+.news-photo {
+    width: 500px;
+    height: 170px;
+    background-color: wheat;
+    border-radius: 30px;
+}
+
+.news-paragraph {
+    margin: 30px;
+}
+
+.news-paragraph h3 {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 20px;
+}
+
+.news-paragraph p {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 17px;
+    color: #b5b5b5;
 }
