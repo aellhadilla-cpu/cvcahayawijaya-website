@@ -88,3 +88,10 @@
             flex-direction: column;
         }
     }
+
+    /*Display*/
+
+    .img-display a:hover {
+        color: white;
+        background-color: rgb(10, 62, 10);
+    }

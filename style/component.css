@@ -42,3 +42,28 @@
     width: 200px;margin: 20px;
     text-decoration: none;
 }
+
+/*Social Seervice*/
+.social-text a {
+    text-decoration: none;
+    padding: 20px 40px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(10, 62, 10);
+}
+
+/*Social Display*/
+.img-display a {
+    width: 140px;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(10, 62, 10);
+    background-color: white;
+    border-radius: 30px;
+    transition: all 0.3s ;
+}

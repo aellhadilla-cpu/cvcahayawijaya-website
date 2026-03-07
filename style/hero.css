@@ -119,3 +119,65 @@
     margin: 10px 20px;
 }
 
+/*Social Service*/
+
+.social-hero {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-hero .social-container {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(135deg, #f5ede3, #efe4d6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-content {
+    width: 95%;
+    height: auto;
+    background-color: #68b1ff00;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/*Social Display*/
+.social-display-hero {
+    width: 100%;
+    height: auto;
+    background-color: #f82d2d00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-display-container {
+    width: 95%;
+    height: auto;
+    background-color: maroon;
+}
+
+/*Testimoni*/
+.testi-container {
+    width: 100%;
+    background-color: #68b1ff00;
+    display: flex;
+    border-top: 1px solid #b5b5b5;
+    padding-bottom: 50px;
+}
+
+/*Social Paragraph*/
+.social-paragraph-hero {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(135deg, #f5ede3, #efe4d6);;
+}
+
+
+
