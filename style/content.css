@@ -165,6 +165,7 @@ img {
 /*Testimoni*/
 .testi-card {
     width: 25%;
+    flex: 1 1 250px;
     height: auto;
     background-color: rgba(127, 255, 212, 0);
     font-family: 'Segoe UI', sans-serif;
@@ -208,11 +209,13 @@ img {
 
 .paragraph-buble-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 5px;
 }
 
 .paragraph-buble-card {
     width: 15%;
+    flex: 1 1 150px;
     height: auto;
     background-color: rgb(255, 255, 255);
     font-family: 'Segoe UI', sans-serif;
@@ -225,6 +228,7 @@ img {
 
 .paragraph-buble-card-last {
     width: 55%;
+    flex: 1 1 55%;
     padding: 10px;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
@@ -236,14 +240,15 @@ img {
     height: auto;
     display: flex;
     background-color: rgba(255, 255, 0, 0);
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 .news-photo {
-    width: 500px;
-    height: 170px;
+    width: 600px;
+    height: 100px;
     background-color: wheat;
     border-radius: 30px;
+    margin-top: 30px;
 }
 
 .news-paragraph {

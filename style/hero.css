@@ -141,6 +141,7 @@
     width: 100%;
     background-color: #68b1ff00;
     display: flex;
+    flex-wrap: wrap;
     border-top: 1px solid #b5b5b5;
     padding-bottom: 50px;
 }

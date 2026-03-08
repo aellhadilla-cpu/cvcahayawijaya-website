@@ -52,6 +52,7 @@
     font-weight: 500;
     color: white;
     background-color: rgb(10, 62, 10);
+    transition: all 0.3s ;
 }
 
 /*Social Display*/
