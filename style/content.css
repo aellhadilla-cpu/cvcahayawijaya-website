@@ -1,5 +1,66 @@
 /*Home*/
 
+.home-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.home-content {
+    width: auto;
+}
+
+.home-hero-heading {
+    font-family: poppins, sans-serif;
+    display: block;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.hero-heading-highlight {
+    background-color: rgb(255, 201, 64);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.home-hero-paragraph {
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.home-btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+.home-primary-btn, .home-secondary-btn {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: poppins, sans-serif;
+    padding: 20px 30px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 255, 0);
+    transition: all 0.2s;
+}
+
+.home-primary-btn {
+    background-color: rgb(255, 201, 64);
+    color: black;
+    border: 1.5px solid black;
+}
+
+.home-secondary-btn {
+    background-color: rgba(0, 0, 0, 0);
+    color: goldenrod;
+    border: 1.5px solid goldenrod;
+}
 
 /*About*/
 

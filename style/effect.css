@@ -1,6 +1,48 @@
-/*home*/
 
-    /*Display*/
+/* HOME */
+
+    .home-primary-btn:hover {
+        background-color: rgba(255, 255, 255, 0);
+    color: goldenrod;
+    border: 1.5px solid goldenrod;
+    }
+
+    .home-secondary-btn:hover {
+        background-color: rgb(255, 201, 64);
+    color: black;
+    border: 1.5px solid black;
+    }
+
+    /* Responsive */
+
+    @media (min-width: 1000px) {}
+
+    @media (max-width: 560px) {
+        .nav-content {
+            gap: 1rem;
+        }
+        .home-hero-heading {
+            font-size: 36px;
+        }
+        .home-hero-paragraph {
+            font-size: 15px;
+            margin: 10 20px;
+        }
+        .home-primary-btn, .home-secondary-btn {
+            font-size: 13px;
+        }
+        .copy-paragraph {
+            font-size: 13px;
+        }
+    }
+
+
+/* ABOUT */
+
+    
+
+
+/*Display*/
 
     .img-display a:hover {
         color: white;

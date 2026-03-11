@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.googleapis.com/css2?
+family=Playfair+Display:wght@400;500;600;700&
+family=Inter:wght@300;400;500;600&
+display=swap" rel="stylesheet" />
+
+    <title>About Page</title>
+</head>
+
+<style>
+    :root {
+        --primary-color: white;
+        --secondary-color: black;
+        --decoration-color: grey;
+        --font-heading: "Playfair Display", serif;
+        --font-body: "inter", sans-serif;
+    }
+
+    /*ResetCss*/
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    /*navbar*/
+
+    .cv-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .nav-primary {
+        background-color: var(--primary-color);
+        color: var(--secondary-color);
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 30px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .nav-primary:hover {
+        border-bottom: 1.5px solid goldenrod;
+        transition: all 0.9s ease;
+    }
+
+    .nav-content {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .nav-content a {
+        text-decoration: none;
+        color: var(--secondary-color);
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        height: 10px;
+        border-bottom: 2px solid rgba(218, 165, 32, 0);
+    }
+
+    .nav-content a:hover {
+        border-bottom: 1.5px solid goldenrod;
+        transition: all 0.6s ease;
+    }
+
+    /*maincontent1*/
+
+    .house {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container {
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    h1 {
+        font-size: 80px;
+        font-family: var(--font-heading);
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+
+    p {
+        font-family: var(--font-body);
+        font-weight: 500;
+        padding-bottom: 60px;
+    }
+
+    .cv-story h1 {
+        font-size: 40px;
+    }
+
+    .cv-story p {
+        height: auto;
+        width: 500px;
+        font-family: var(--font-body);
+        font-size: 15px;
+        color: goldenrod;
+    }
+
+    .line-decoration {
+        position: absolute;
+        bottom: 34%;
+        width: 500px;
+        height: 1px;
+        background-color: goldenrod;
+    }
+
+    .cv-mission h1 {
+        font-size: 40px;
+    }
+
+    .cv-mission p {
+        height: auto;
+        width: 500px;
+        font-family: var(--font-body);
+        font-size: 15px;
+    }
+
+    /*maincontent2*/
+
+    .cv-service {
+        margin-top: 50px;
+        margin-right: 100px;
+    }
+
+    .office-img {
+        width: 500px;
+        height: 300px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px;
+    }
+
+    .item {
+        width: 200px;
+        height: 150px;
+        margin-top: 30px;
+        border-bottom: 1px solid goldenrod;
+    }
+
+    h4 {
+        font-family: var(--font-body);
+    }
+
+    .item-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .circle-decoration {
+        width: 50%;
+        height: 91.5vh;
+        background: rgba(212, 175, 55, 0.15);
+        position: absolute;
+        left: 50%;
+        bottom: 0%;
+        z-index: -1;
+    }
+
+    /*===RESPONSIVE===*/
+
+    /*TAB*/
+    @media (max-width: 1224px) {
+        body {
+            overflow-y: visible;
+            background-color: rgba(212, 175, 55, 0.15);
+        }
+
+        .house {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .circle-decoration {
+            display: none;
+        }
+
+        .cv-story p {
+            border-bottom: 1px solid goldenrod;
+            height: 150px;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .cv-mission {
+            padding-top: 30px;
+        }
+
+        .cv-service {
+            padding-left: 100px;
+        }
+    }
+
+    /*mobile*/
+    @media (max-width: 580px) {
+        .nav-content {
+            gap: 1rem;
+        }
+
+        .wrapper h1 {
+            font-size: 55px;
+            padding-bottom: 10px;
+        }
+
+        .wrapper p {
+            font-size: small;
+        }
+
+        .cv-story h1 {
+            font-size: 35px;
+        }
+
+        .cv-story p {
+            font-size: small;
+            width: 400px;
+        }
+
+        .cv-mission h1 {
+            font-size: 35px;
+        }
+
+        .cv-mission p {
+            font-size: small;
+            width: 400px;
+        }
+
+        .item p {
+            font-size: small;
+            width: 190px;
+        }
+
+        .cv-service {
+            margin-right: 100px;
+        }
+
+        .office-img {
+            width: 100%;
+            height: 270px;
+        }
+    }
+
+    /*smallmobile*/
+    @media (max-width: 420px) {
+        .nav-content {
+            gap: 1rem;
+        }
+
+        .wrapper {
+            height: 100px;
+        }
+
+        .wrapper h1 {
+            font-size: 35px;
+            padding-bottom: 5px;
+        }
+
+        .wrapper p {
+            font-size: smaller;
+        }
+
+        .cv-story h1 {
+            font-size: 25px;
+        }
+
+        .cv-story p {
+            font-size: smaller;
+            width: 300px;
+            height: 180px;
+        }
+
+        .cv-mission h1 {
+            font-size: 25px;
+        }
+
+        .cv-mission p {
+            font-size: smaller;
+            width: 300px;
+            height: 100px;
+        }
+
+        .item p {
+            font-size: smaller;
+            width: 190px;
+            height: 10px;
+        }
+
+        .cv-service {
+            margin-right: 100px;
+        }
+
+        .grid {
+            grid-template-columns: 1fr;
+        }
+
+        .office-img {
+            display: none;
+        }
+
+        .nav-content {
+            gap: 0.5rem;
+        }
+
+        .nav-content a {
+            font-size: 10px;
+        }
+    }
+</style>
+
+<body>
+    <!--navbar-->
+    <nav class="nav-primary">
+        <img src="/img/logo.jpg.png" class="cv-logo" />
+        <ul class="nav-content">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/lawfirm.html">LawFirm</a></li>
+            <li><a href="/cafe.html">Cafe</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--maincontent-->
+
+    <!--tittle-->
+    <div class="house">
+        <div class="container">
+            <div class="wrapper">
+                <h1>About Us</h1>
+                <p>OUR STORY,MISION,VISION & VALUES</p>
+            </div>
+            <!--whoweare-->
+            <section class="cv-story">
+                <h1>Who We Are?</h1>
+                <p>
+                    We are a dynamic company operating across multiple sectors,
+                    dedicated to transforming ideas into impactful solutions. With a
+                    forward-thinking mindset and a diverse portfolio of expertise, we
+                    empower businesses to achieve long-term growth, efficiency, and
+                    innovation. We believe in building partnerships that create
+                    measurable value and lasting success.
+                </p>
+            </section>
+            <!--ourmission-->
+            <section class="cv-mission">
+                <h1>Our Mission</h1>
+                <p>
+                    Our mission is to deliver high-quality, innovative, and sustainable
+                    solutions across multiple industries. We are committed to creating
+                    value for our clients by combining expertise, integrity, and
+                    efficiency while fostering long-term partnerships built on trust and
+                    excellence.
+                </p>
+            </section>
+        </div>
+        <div class="cv-service">
+            <img src="/img/desktopimg.png" class="office-img" />
+            <div class="grid">
+                <!--ourvision-->
+                <div class="item">
+                    <img src="/img/vision.png" class="item-img" />
+                    <h4>Our Vision</h4>
+                    <p>
+                        Creating long-term value through trusted and innovative
+                        multi-sector solutions.
+                    </p>
+                </div>
+                <!--ourvalues-->
+                <div class="item">
+                    <img src="/img/values.png" class="item-img" />
+                    <h4>Our Values</h4>
+                    <p>
+                        We act with honesty, transparency, and accountability in every
+                        decision.
+                    </p>
+                </div>
+                <!--ourcollaboration-->
+                <div class="item">
+                    <img src="/img/collaboration.png" class="item-img" />
+                    <h4>Our Collabroration</h4>
+                    <p>
+                        Integrity, innovation, excellence, collaboration, and
+                        sustainability guide everything we do.
+                    </p>
+                </div>
+                <!--ourinnovation-->
+                <div class="item">
+                    <img src="/img/innovation.png" class="item-img" />
+                    <h4>Our Innovation</h4>
+                    <p>
+                        Delivering adaptive, technology-driven solutions for evolving
+                        needs.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="circle-decoration"></div>
+</body>
+
+</html>
