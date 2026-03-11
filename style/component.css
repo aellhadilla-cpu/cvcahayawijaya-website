@@ -1,47 +1,5 @@
 /*home*/
 
-/*primaryButton*/
-.primary-button button {
-        font-family: var(--font-body);
-        width: 190px;
-        height: 60px;
-        border-radius: 20px;
-        font-family: var(--font-body);
-        font-weight: 520;
-        font-size: 16px;
-        background: linear-gradient(to bottom right, #ffffff00, #68b1ff00);
-        color: rgb(101, 165, 225);
-        border: 1px solid rgb(106, 207, 236);
-        margin-bottom: 10px;
-    }
-
-/*secondaryButton*/
-.secondary-button button {
-        font-family: var(--font-body);
-        width: 190px;
-        height: 60px;
-        border-radius: 20px;
-        font-family: var(--font-body);
-        font-weight: 520;
-        font-size: 16px;
-        background-color: rgba(218, 165, 32, 0);
-        color: rgb(255, 255, 255);
-        border: 1px solid rgb(255, 255, 255);
-    }
-
-    .display-content {
-    margin-top: 0px;
-}
-
-.display-button {
-    color: #03070d;
-    font-family: 'Segoe UI', sans-serif;
-    font-size: 18px;
-    background: linear-gradient(to bottom right, #ffffff, #68b1ff);
-    padding: 20px 20px 20px 20px;
-    width: 200px;margin: 20px;
-    text-decoration: none;
-}
 
 /*Social Seervice*/
 .social-text a {

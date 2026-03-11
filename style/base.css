@@ -23,7 +23,3 @@
         overflow-y: auto;
         scroll-behavior: smooth;
     }
-
-    section {
-        scroll-behavior: smooth;
-    }
