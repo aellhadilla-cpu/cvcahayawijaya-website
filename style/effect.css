@@ -15,8 +15,6 @@
 
     /* Responsive */
 
-    @media (min-width: 1000px) {}
-
     @media (max-width: 560px) {
         .nav-content {
             gap: 1rem;
@@ -36,6 +34,25 @@
         }
     }
 
+/* SERVICES */
+
+    /* Responsive */
+
+/* SERVICE LAW */
+
+    .service-law-btn:hover {
+        background-color: rgba(255, 255, 255, 0);
+    color: rgb(82, 170, 252);
+    border: 1.5px solid rgb(82, 170, 252);
+    }
+
+/* SERVICE CAFE */
+
+    .service-cafe-btn:hover {
+        background-color: rgba(255, 255, 255, 0);
+    color: rgb(82, 170, 252);
+    border: 1.5px solid rgb(82, 170, 252);
+    }
 
 /* ABOUT */
 
