@@ -66,7 +66,7 @@
 
 .service-content-text {
     background-color: rgba(255, 255, 0, 0);
-    width: 600px;
+    width: 50%;
     font-family: poppins, sans-serif;
     margin: 50px;
     padding: 10px;
@@ -86,7 +86,7 @@
 
 .service-content-text p {
     font-size: 18px;
-    width: 600px;
+    width: 100%;
 }
 
 .service-content-img {
@@ -104,7 +104,7 @@
 
 .service-law-text {
     background-color: rgba(255, 255, 0, 0);
-    width: 600px;
+    width: 50%;
     font-family: poppins, sans-serif;
     margin: 50px;
     padding: 10px;
@@ -124,7 +124,7 @@
 
 .service-law-text p {
     font-size: 18px;
-    width: 600px;
+    width: 100%;
     margin-bottom: 40px;
 }
 
@@ -156,7 +156,7 @@
 
 .service-cafe-text {
     background-color: rgba(255, 255, 0, 0);
-    width: 600px;
+    width: 50%;
     font-family: poppins, sans-serif;
     margin: 50px;
     padding: 10px;
@@ -176,7 +176,7 @@
 
 .service-cafe-text p {
     font-size: 18px;
-    width: 600px;
+    width: 100%;
     margin-bottom: 40px;
 }
 

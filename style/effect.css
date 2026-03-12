@@ -35,8 +35,109 @@
     }
 
 /* SERVICES */
-
     /* Responsive */
+        /* HP */
+    @media (max-width: 480px) {
+        .service-content {
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+        .service-content-img {
+            margin: 0;
+            margin-top: 200px;
+        }
+        .service-content-text {
+            width: 90%;
+            margin: 0;
+        }
+        .service-content-text h1 {
+            font-size: 27px;
+        }
+        .service-content-text p {
+            font-size: 13px;
+        }
+        .service-icons {
+            width: 300px;
+            height: 300px;
+        }
+    }
+        /* HP BESAR */
+    @media (min-width: 480px) and (max-width: 768px) {
+        .service-hero, .service-container {
+            height: auto;
+        }
+        .service-content {
+            flex-direction: column-reverse;
+            justify-content: start;
+        }
+        .service-content-img {
+            margin-top: 100px;
+            margin-bottom: 0;
+        }
+        .service-content-text {
+            width: 90%;
+            margin: 0;
+        }
+        .service-content-text h1 {
+            font-size: 27px;
+        }
+        .service-content-text p {
+            font-size: 13px;
+        }
+        .service-icons {
+            width: 450px;
+            height: 450px;
+        }
+    }   
+        /* TAB */
+    @media (min-width:768px) and (max-width: 992px) {
+        .service-hero, .service-container {
+            height: auto;
+        }
+        .service-content {
+            flex-direction: column-reverse;
+            justify-content: start;
+            background-color: rgba(137, 43, 226, 0);
+        }
+        .service-content-img {
+            margin-top: 100px;
+            margin-bottom: 0;
+        }
+        .service-content-text {
+            width: 90%;
+            margin: 0;
+            margin-bottom: 100px;
+        }
+    }
+        /* LAPTOP */
+    @media (min-width:992px) and (max-width: 1200px) {
+        .service-hero, .service-container {
+            height: auto;
+        }
+        .service-content {
+            margin-top: 80px;
+            background-color: rgba(137, 43, 226, 0);
+        }
+        .service-content-img {
+            margin: 50px 50px 50px;
+        }
+        .service-content-text {
+            width: 90%;
+            margin-right: 0;
+        }
+        .service-content-text h1 {
+            font-size: 27px;
+        }
+        .service-content-text p {
+            font-size: 13px;
+        }
+        .service-icons {
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+
 
 /* SERVICE LAW */
 
@@ -45,6 +146,107 @@
     color: rgb(82, 170, 252);
     border: 1.5px solid rgb(82, 170, 252);
     }
+    /* Responsive */
+        /* HP */
+    @media (max-width: 480px) {
+        .service-law-content {
+            flex-direction: column;
+            justify-content: center;
+        }
+        .service-law-img {
+            margin-top: 300px;
+            margin-bottom: 0;
+        }
+        .service-law-text {
+            width: 90%;
+            margin: 0;
+        }
+        .service-law-text h1 {
+            font-size: 22px;
+        }
+        .service-law-text p {
+            font-size: 13px;
+        }
+        .service-law-icons {
+            width: 300px;
+            height: 300px;
+        }
+    }
+        /* HP BESAR */
+    @media (min-width: 480px) and (max-width: 768px) {
+        .service-law-hero, .service-law-container {
+            height: auto;
+        }
+        .service-law-content {
+            flex-direction: column;
+            justify-content: start;
+        }
+        .service-law-content-img {
+            margin-top: 100px;
+            margin-bottom: 0;
+        }
+        .service-law-text {
+            width: 90%;
+            margin: 0;
+        }
+        .service-law-text h1 {
+            font-size: 27px;
+        }
+        .service-law-text p {
+            font-size: 13px;
+        }
+        .service-law-icons {
+            width: 450px;
+            height: 450px;
+        }
+    }
+        /* TAB */
+    @media (min-width:768px) and (max-width: 992px) {
+        .service-law-hero, .service-law-container {
+            height: auto;
+        }
+        .service-law-content {
+            flex-direction: column;
+            justify-content: start;
+            background-color: rgba(137, 43, 226, 0);
+        }
+        .service-law-img {
+            margin: 0;
+        }
+        .service-law-text {
+            width: 90%;
+            margin: 0;
+            margin-bottom: 100px;
+        }
+    }
+        /* LAPTOP */
+    @media (min-width:992px) and (max-width: 1200px) {
+        .service-law-hero, .service-law-container {
+            height: auto;
+        }
+        .service-law-content {
+            margin-top: 80px;
+        }
+        .service-law-content-img {
+            margin: 50px 50px 50px;
+        }
+        .service-law-text {
+            width: 90%;
+            margin-right: 0;
+        }
+        .service-law-text h1 {
+            font-size: 27px;
+        }
+        .service-law-text p {
+            font-size: 13px;
+        }
+        .service-law-icons {
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+
 
 /* SERVICE CAFE */
 
@@ -53,6 +255,112 @@
     color: rgb(82, 170, 252);
     border: 1.5px solid rgb(82, 170, 252);
     }
+
+    /* Responsive */
+        /* HP */
+    @media (max-width: 480px) {
+        .service-cafe-hero {
+            height: auto;
+        }
+        .service-cafe-content {
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+        .service-cafe-img {
+            margin-top: 200px;
+        }
+        .service-cafe-text {
+            width: 90%;
+            margin: 0;
+        }
+        .service-cafe-text h1 {
+            font-size: 23px;
+        }
+        .service-cafe-text p {
+            font-size: 13px;
+            margin-top: 0;
+        }
+        .service-cafe-icons {
+            width: 300px;
+            height: 300px;
+        }
+    }
+        /* HP BESAR */
+    @media (min-width: 480px) and (max-width: 768px) {
+        .service-cafe-hero, .service-cafe-container {
+            height: auto;
+        }
+        .service-cafe-content {
+            flex-direction: column-reverse;
+            justify-content: start;
+        }
+        .service-cafe-content-img {
+            margin-top: 100px;
+            margin-bottom: 0;
+        }
+        .service-cafe-text {
+            width: 90%;
+            margin: 0;
+        }
+        .service-cafe-text h1 {
+            font-size: 27px;
+        }
+        .service-cafe-text p {
+            font-size: 13px;
+        }
+        .service-cafe-icons {
+            width: 450px;
+            height: 450px;
+        }
+    }
+        /* TAB */
+    @media (min-width:768px) and (max-width: 992px) {
+        .service-cafe-hero, .service-cafe-container {
+            height: auto;
+        }
+        .service-cafe-content {
+            flex-direction: column-reverse;
+            justify-content: start;
+            background-color: rgba(137, 43, 226, 0);
+        }
+        .service-cafe-text {
+            width: 90%;
+            margin: 0;
+            margin-bottom: 100px;
+        }
+    }
+        /* LAPTOP */
+    @media (min-width:992px) and (max-width: 1200px) {
+        .service-cafe-hero, .service-cafe-container {
+            height: auto;
+        }
+        .service-cafe-content {
+            margin-top: 80px;
+        }
+        .service-cafe-content-img {
+            margin: 50px 50px 50px;
+        }
+        .service-cafe-text {
+            width: 90%;
+            margin-right: 0;
+        }
+        .service-cafe-text h1 {
+            font-size: 27px;
+        }
+        .service-cafe-text p {
+            font-size: 13px;
+        }
+        .service-cafe-icons {
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+
+
+
+
+
 
 /* ABOUT */
 
