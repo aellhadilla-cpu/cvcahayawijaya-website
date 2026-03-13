@@ -136,6 +136,17 @@
             height: 300px;
         }
     }
+        /* LAPTOP BESAR */
+    @media (min-width:1200px) {
+        .service-content-img {
+            margin: 50px 100px 50px;
+        }
+        .service-content-text {
+            width: 90%;
+            margin-right: 0;
+            margin-left: 100px;
+        }
+    }
 
 
 
@@ -243,6 +254,17 @@
         .service-law-icons {
             width: 300px;
             height: 300px;
+        }
+    }
+        /* LAPTOP BESAR */
+    @media (min-width:1200px) {
+        .service-law-img {
+            margin: 50px 100px 50px;
+        }
+        .service-law-text {
+            width: 90%;
+            margin-right: 50px;
+            margin-left: 100px;
         }
     }
 
@@ -353,6 +375,17 @@
         .service-cafe-icons {
             width: 300px;
             height: 300px;
+        }
+    }
+        /* LAPTOP BESAR */
+    @media (min-width:1200px) {
+        .service-cafe-img {
+            margin: 50px 100px 50px;
+        }
+        .service-cafe-text {
+            width: 90%;
+            margin-right: 0;
+            margin-left: 100px;
         }
     }
 
