@@ -6,7 +6,7 @@
         height: 60px;
     }
 
-    .nav-hero {
+    nav {
         position: fixed;
         top: 0;
         background-color: rgb(255, 255, 255);
@@ -20,19 +20,14 @@
         z-index: 999;
     }
 
-    .nav-primary:hover {
-        border-bottom: 1.5px solid goldenrod;
-        transition: all 0.9s ease;
-    }
-
-    .nav-content {
+    nav ul {
         list-style: none;
         display: flex;
         justify-content: space-between;
         gap: 2rem;
     }
 
-    .nav-content a {
+    nav ul a {
         text-decoration: none;
         color: rgb(0, 0, 0);
         font-family: 'Poppins', sans-serif;
@@ -42,10 +37,18 @@
         border-bottom: 2px solid rgba(218, 165, 32, 0);
     }
 
-    .nav-content a:hover {
+    nav li:first-child {
+        margin-right: auto;
+    }
+
+    nav ul li a:hover {
         border-bottom: 1.5px solid goldenrod;
         transition: all 0.6s ease;
     }
+
+/* SIDEBAR */
+    
+    
 
 /* FOOTER */
     
