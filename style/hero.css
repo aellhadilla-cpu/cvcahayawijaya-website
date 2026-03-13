@@ -111,36 +111,30 @@
     align-items: center;
 }
 
-
-
-/*About*/
+/* ABOUT */
 
 .about-hero {
     height: 100vh;
-    background: linear-gradient(to bottom right, #ffffff, #68b1ff);
+    width: 100%;
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 1px solid #6d6d6d;
 }
 
 .about-container {
-    width: 95%;
-    height: 60%;
-    margin-top: 100px;
-    color: white;
-    background: rgba(32, 30, 30, 0.566); /* transparan */
-    backdrop-filter: blur(10px);          /* efek blur */
-    -webkit-backdrop-filter: blur(10px);  /* support Safari */
-    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+    background-color: #6d6d6d00;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .about-content {
-    width: 95%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
     background-color: rgba(240, 248, 255, 0);
     display: flex;
 }
